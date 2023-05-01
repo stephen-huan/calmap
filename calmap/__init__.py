@@ -284,8 +284,8 @@ def yearplot(
             )
             ax.add_artist(poly)
 
-    ax.set_xticks(xticks)
-    ax.set_xticklabels(labels)
+    ax.set_xticks([xticks[i] for i in monthticks])
+    ax.set_xticklabels([monthlabels[i] for i in monthticks])
     ax.set_ylabel("")
     ax.yaxis.set_ticks_position("right")
     ax.set_yticks([6 - i + 0.5 for i in dayticks])
