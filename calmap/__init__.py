@@ -306,8 +306,6 @@ def calendarplot(
     gridspec_kws=None,
     fig_kws=None,
     fig_suptitle=None,
-    vmin=None,
-    vmax=None,
     **kwargs
 ):
     """
