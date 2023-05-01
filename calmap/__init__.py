@@ -10,13 +10,13 @@ from __future__ import unicode_literals
 
 import calendar
 import datetime
+from distutils.version import StrictVersion
 
-from matplotlib.colors import ColorConverter, ListedColormap
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from distutils.version import StrictVersion
 from dateutil.relativedelta import relativedelta
+from matplotlib.colors import ColorConverter, ListedColormap
 from matplotlib.patches import Polygon
 
 __version_info__ = ("0", "0", "9")
